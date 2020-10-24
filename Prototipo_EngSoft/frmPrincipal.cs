@@ -21,5 +21,19 @@ namespace Protótipo_EngSoft
         {
             Close();
         }
+
+        private void entregasRealizadasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            pbFundo.Hide();
+            Form fc = Application.OpenForms["frmHistorico"];
+            if (fc != null)
+            {
+                fc.Close();
+            }
+            frmHistorico FrmHistorico = new frmHistorico();
+            FrmHistorico.MdiParent = this; // anexar o form 'filho' dentro do form 'pai'
+            FrmHistorico.WindowState = FormWindowState.Maximized;
+            FrmHistorico.Show();
+        }
     }
 }
