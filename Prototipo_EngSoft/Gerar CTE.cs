@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Protótipo_EngSoft
 {
-    public partial class frmPrincipal : Form
+    public partial class Gerar_CTE : Form
     {
-        public frmPrincipal()
+        public Gerar_CTE()
         {
             InitializeComponent();
-        }
-
-        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Close();
         }
     }
 }
