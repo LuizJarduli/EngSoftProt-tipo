@@ -32,13 +32,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtChaveAcesso
             // 
             this.txtChaveAcesso.Location = new System.Drawing.Point(9, 25);
-            this.txtChaveAcesso.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtChaveAcesso.Margin = new System.Windows.Forms.Padding(2);
             this.txtChaveAcesso.Name = "txtChaveAcesso";
             this.txtChaveAcesso.Size = new System.Drawing.Size(232, 20);
             this.txtChaveAcesso.TabIndex = 0;
@@ -66,33 +65,21 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(272, 25);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(158, 20);
             this.textBox1.TabIndex = 3;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F);
-            this.label3.Location = new System.Drawing.Point(200, 185);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(382, 31);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "TESTE OANI MOD 10:38 SAB";
             // 
             // frmNota
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(736, 449);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtChaveAcesso);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmNota";
             this.Text = "Nota Fiscal";
             this.ResumeLayout(false);
@@ -106,6 +93,5 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label3;
     }
 }

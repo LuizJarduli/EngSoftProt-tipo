@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace Protótipo_EngSoft
 {
-    public partial class frmPrincipal : Form
+    public partial class Listar_Transportadores_Registrados : Form
     {
-        public frmPrincipal()
+        public Listar_Transportadores_Registrados()
         {
             InitializeComponent();
         }
 
-        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
-            Close();
+
         }
     }
 }

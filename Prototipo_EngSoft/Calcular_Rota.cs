@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Protótipo_EngSoft
 {
-    public partial class frmEntregas : Form
+    public partial class Calcular_Rota : Form
     {
-        public frmEntregas()
+        public Calcular_Rota()
         {
             InitializeComponent();
         }

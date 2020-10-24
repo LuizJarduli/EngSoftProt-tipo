@@ -46,17 +46,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmEntregas.cs">
+    <Compile Include="Calcular_Rota.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmEntregas.Designer.cs">
-      <DependentUpon>frmEntregas.cs</DependentUpon>
+    <Compile Include="Calcular_Rota.Designer.cs">
+      <DependentUpon>Calcular_Rota.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmHistorico.cs">
+    <Compile Include="Cadastrar Veiculo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmHistorico.Designer.cs">
-      <DependentUpon>frmHistorico.cs</DependentUpon>
+    <Compile Include="Cadastrar Veiculo.Designer.cs">
+      <DependentUpon>Cadastrar Veiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Alterar dados dos Veiculos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alterar dados dos Veiculos.Designer.cs">
+      <DependentUpon>Alterar dados dos Veiculos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gerar CTE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gerar CTE.Designer.cs">
+      <DependentUpon>Gerar CTE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Listar_Veiculos_Registrados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listar_Veiculos_Registrados.Designer.cs">
+      <DependentUpon>Listar_Veiculos_Registrados.cs</DependentUpon>
     </Compile>
     <Compile Include="frmNota.cs">
       <SubType>Form</SubType>
@@ -70,19 +88,37 @@
     <Compile Include="frmPrincipal.Designer.cs">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Listar_Transportadores_Registrados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listar_Transportadores_Registrados.Designer.cs">
+      <DependentUpon>Listar_Transportadores_Registrados.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmEntregas.resx">
-      <DependentUpon>frmEntregas.cs</DependentUpon>
+    <EmbeddedResource Include="Calcular_Rota.resx">
+      <DependentUpon>Calcular_Rota.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmHistorico.resx">
-      <DependentUpon>frmHistorico.cs</DependentUpon>
+    <EmbeddedResource Include="Cadastrar Veiculo.resx">
+      <DependentUpon>Cadastrar Veiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alterar dados dos Veiculos.resx">
+      <DependentUpon>Alterar dados dos Veiculos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gerar CTE.resx">
+      <DependentUpon>Gerar CTE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listar_Veiculos_Registrados.resx">
+      <DependentUpon>Listar_Veiculos_Registrados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmNota.resx">
       <DependentUpon>frmNota.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPrincipal.resx">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listar_Transportadores_Registrados.resx">
+      <DependentUpon>Listar_Transportadores_Registrados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
