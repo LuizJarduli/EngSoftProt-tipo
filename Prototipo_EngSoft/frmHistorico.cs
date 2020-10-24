@@ -22,7 +22,7 @@ namespace Protótipo_EngSoft
         private void frmHistorico_Load(object sender, EventArgs e)
         {
             DirectoryInfo directory = new FileInfo("../../planilhas/").Directory;
-            MessageBox.Show("" + directory);
+            //MessageBox.Show("" + directory);
             String name = "Planilha1";
             String constr = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" +
                             directory +
