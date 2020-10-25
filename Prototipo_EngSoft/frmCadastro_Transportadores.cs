@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Protótipo_EngSoft
 {
-    public partial class Listar_Romaneios : Form
+    public partial class frmCadastro_Transportadores : Form
     {
-        public Listar_Romaneios()
+        public frmCadastro_Transportadores()
         {
             InitializeComponent();
-        }
-
-        private void Listar_Romaneios_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

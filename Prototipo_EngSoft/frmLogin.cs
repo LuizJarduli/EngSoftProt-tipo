@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Protótipo_EngSoft
 {
-    public partial class Listar_Romaneios : Form
+    public partial class frmLogin : Form
     {
-        public Listar_Romaneios()
+        public frmLogin()
         {
             InitializeComponent();
-        }
-
-        private void Listar_Romaneios_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

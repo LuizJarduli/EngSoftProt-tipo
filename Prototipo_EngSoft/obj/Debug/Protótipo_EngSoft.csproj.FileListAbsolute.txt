@@ -14,7 +14,6 @@ D:\BACKUPS_D\Offline_D\Repos_Offline\EngSoftProt-tipo\Prototipo_EngSoft\obj\Debu
 C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\bin\Debug\Protótipo_EngSoft.exe.config
 C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\bin\Debug\Protótipo_EngSoft.exe
 C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\bin\Debug\Protótipo_EngSoft.pdb
-C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\obj\Debug\Protótipo_EngSoft.csprojAssemblyReference.cache
 C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\obj\Debug\Protótipo_EngSoft.frmEntregas.resources
 C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\obj\Debug\Protótipo_EngSoft.frmHistorico.resources
 C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\obj\Debug\Protótipo_EngSoft.frmNota.resources
@@ -25,3 +24,20 @@ C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA
 C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\obj\Debug\Protótipo_EngSoft.exe
 C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\obj\Debug\Protótipo_EngSoft.pdb
 D:\BACKUPS_D\Offline_D\Repos_Offline\EngSoftProt-tipo\Prototipo_EngSoft\obj\Debug\Protótipo_EngSoft.csprojResolveAssemblyReference.cache
+C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\obj\Debug\Protótipo_EngSoft.Alterar_dados_Veiculo.resources
+C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\obj\Debug\Protótipo_EngSoft.frmCadastro_veiculo.resources
+C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\obj\Debug\Protótipo_EngSoft.frmCadastro_Romaneio.resources
+C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\obj\Debug\Protótipo_EngSoft.frmCalcular_rota.resources
+C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\obj\Debug\Protótipo_EngSoft.frmCerarCTE.resources
+C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\obj\Debug\Protótipo_EngSoft.frmAlterar_Romaneio.resources
+C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\obj\Debug\Protótipo_EngSoft.frmAlterar_Veiculos.resources
+C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\obj\Debug\Protótipo_EngSoft.frmCalcularFrete.resources
+C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\obj\Debug\Protótipo_EngSoft.frmReceberNFe.resources
+C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\obj\Debug\Protótipo_EngSoft.frmVisualizar_CTes.resources
+C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\obj\Debug\Protótipo_EngSoft.Listar_Romaneios.resources
+C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\obj\Debug\Protótipo_EngSoft.frmL_Transportadores.resources
+C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\obj\Debug\Protótipo_EngSoft.frmL_Veiculos.resources
+C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\obj\Debug\Protótipo_EngSoft.frmCadastro_Transportadores.resources
+C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\obj\Debug\Protótipo_EngSoft.frmAlterar_Transportadores.resources
+C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\obj\Debug\Protótipo_EngSoft.frmLogin.resources
+C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\obj\Debug\Protótipo_EngSoft.frmCadastro_Func.resources

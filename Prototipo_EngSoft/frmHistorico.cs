@@ -7,14 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.OleDb;
 using System.IO;
+using System.Data.OleDb;
 
 namespace Protótipo_EngSoft
 {
-    public partial class Listar_Veiculos_Registrados : Form
+    public partial class frmHistorico : Form
     {
-        public Listar_Veiculos_Registrados()
+        public frmHistorico()
         {
             InitializeComponent();
         }

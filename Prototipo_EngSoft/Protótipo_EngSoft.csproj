@@ -52,6 +52,24 @@
     <Compile Include="Alterar_dados_Veiculo.Designer.cs">
       <DependentUpon>Alterar_dados_Veiculo.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmAlterar_Transportadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAlterar_Transportadores.Designer.cs">
+      <DependentUpon>frmAlterar_Transportadores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadastro_Func.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastro_Func.Designer.cs">
+      <DependentUpon>frmCadastro_Func.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadastro_Transportadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastro_Transportadores.Designer.cs">
+      <DependentUpon>frmCadastro_Transportadores.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmCadastro_veiculo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +118,24 @@
     <Compile Include="frmCalcularFrete.Designer.cs">
       <DependentUpon>frmCalcularFrete.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmHistorico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHistorico.Designer.cs">
+      <DependentUpon>frmHistorico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmL_Transportadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmL_Transportadores.Designer.cs">
+      <DependentUpon>frmL_Transportadores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmL_Veiculos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmL_Veiculos.Designer.cs">
+      <DependentUpon>frmL_Veiculos.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmReceberNFe.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,29 +154,11 @@
     <Compile Include="frmL_Romaneios.Designer.cs">
       <DependentUpon>frmL_Romaneios.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmL_Veiculos_Registrados.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmL_Veiculos_Registrados.Designer.cs">
-      <DependentUpon>frmL_Veiculos_Registrados.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmL_Transportadores_Registrados.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmL_Transportadores_Registrados.Designer.cs">
-      <DependentUpon>frmL_Transportadores_Registrados.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmEntregas.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmEntregas.Designer.cs">
       <DependentUpon>frmEntregas.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmHistorico.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmHistorico.Designer.cs">
-      <DependentUpon>frmHistorico.cs</DependentUpon>
     </Compile>
     <Compile Include="frmNota.cs">
       <SubType>Form</SubType>
@@ -154,10 +172,25 @@
     <Compile Include="frmPrincipal.Designer.cs">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Alterar_dados_Veiculo.resx">
       <DependentUpon>Alterar_dados_Veiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlterar_Transportadores.resx">
+      <DependentUpon>frmAlterar_Transportadores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadastro_Func.resx">
+      <DependentUpon>frmCadastro_Func.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadastro_Transportadores.resx">
+      <DependentUpon>frmCadastro_Transportadores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmCadastro_veiculo.resx">
       <DependentUpon>frmCadastro_veiculo.cs</DependentUpon>
@@ -180,6 +213,18 @@
     <EmbeddedResource Include="frmCalcularFrete.resx">
       <DependentUpon>frmCalcularFrete.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmHistorico.resx">
+      <DependentUpon>frmHistorico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmL_Transportadores.resx">
+      <DependentUpon>frmL_Transportadores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmL_Veiculos.resx">
+      <DependentUpon>frmL_Veiculos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmReceberNFe.resx">
       <DependentUpon>frmReceberNFe.cs</DependentUpon>
     </EmbeddedResource>
@@ -189,17 +234,8 @@
     <EmbeddedResource Include="frmL_Romaneios.resx">
       <DependentUpon>frmL_Romaneios.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmL_Veiculos_Registrados.resx">
-      <DependentUpon>frmL_Veiculos_Registrados.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmL_Transportadores_Registrados.resx">
-      <DependentUpon>frmL_Transportadores_Registrados.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmEntregas.resx">
       <DependentUpon>frmEntregas.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmHistorico.resx">
-      <DependentUpon>frmHistorico.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmNota.resx">
       <DependentUpon>frmNota.cs</DependentUpon>

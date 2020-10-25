@@ -1,6 +1,6 @@
 ﻿namespace Protótipo_EngSoft
 {
-    partial class Listar_Veiculos_Registrados
+    partial class frmHistorico
     {
         /// <summary>
         /// Required designer variable.
@@ -40,21 +40,21 @@
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.dgvExcel);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(9, 10);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox1.Size = new System.Drawing.Size(807, 430);
-            this.groupBox1.TabIndex = 0;
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Size = new System.Drawing.Size(1076, 529);
+            this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Histórico de Vendas";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(676, 385);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Location = new System.Drawing.Point(901, 474);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(126, 39);
+            this.button1.Size = new System.Drawing.Size(168, 48);
             this.button1.TabIndex = 1;
             this.button1.Text = "Imprimir";
             this.button1.UseVisualStyleBackColor = true;
@@ -62,23 +62,22 @@
             // dgvExcel
             // 
             this.dgvExcel.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvExcel.Location = new System.Drawing.Point(4, 44);
-            this.dgvExcel.Margin = new System.Windows.Forms.Padding(2);
+            this.dgvExcel.Location = new System.Drawing.Point(5, 54);
+            this.dgvExcel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvExcel.Name = "dgvExcel";
             this.dgvExcel.RowHeadersWidth = 51;
             this.dgvExcel.RowTemplate.Height = 24;
-            this.dgvExcel.Size = new System.Drawing.Size(798, 336);
+            this.dgvExcel.Size = new System.Drawing.Size(1064, 414);
             this.dgvExcel.TabIndex = 0;
             // 
-            // Listar_Veiculos_Registrados
+            // frmHistorico
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(825, 449);
+            this.ClientSize = new System.Drawing.Size(1100, 553);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "Listar_Veiculos_Registrados";
-            this.Text = "HIST";
+            this.Name = "frmHistorico";
+            this.Text = "frmHistorico";
             this.Load += new System.EventHandler(this.frmHistorico_Load);
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvExcel)).EndInit();
@@ -89,7 +88,7 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.DataGridView dgvExcel;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataGridView dgvExcel;
     }
 }
