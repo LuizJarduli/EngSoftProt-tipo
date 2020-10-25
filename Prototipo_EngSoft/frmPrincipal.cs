@@ -30,7 +30,7 @@ namespace Protótipo_EngSoft
             {
                 fc.Close();
             }
-            frmHistorico FrmHistorico = new frmHistorico();
+            Listar_Veiculos_Registrados FrmHistorico = new Listar_Veiculos_Registrados();
             FrmHistorico.MdiParent = this; // anexar o form 'filho' dentro do form 'pai'
             FrmHistorico.WindowState = FormWindowState.Maximized;
             FrmHistorico.Show();

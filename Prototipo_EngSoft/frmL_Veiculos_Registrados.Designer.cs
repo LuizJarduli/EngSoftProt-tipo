@@ -41,9 +41,9 @@
             this.groupBox1.Controls.Add(this.dgvExcel);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(9, 10);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Size = new System.Drawing.Size(807, 430);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
@@ -52,7 +52,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(676, 385);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(126, 39);
             this.button1.TabIndex = 1;
@@ -63,7 +63,7 @@
             // 
             this.dgvExcel.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvExcel.Location = new System.Drawing.Point(4, 44);
-            this.dgvExcel.Margin = new System.Windows.Forms.Padding(2);
+            this.dgvExcel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvExcel.Name = "dgvExcel";
             this.dgvExcel.RowHeadersWidth = 51;
             this.dgvExcel.RowTemplate.Height = 24;
@@ -76,9 +76,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(825, 449);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Listar_Veiculos_Registrados";
-            this.Text = "HIST";
+            this.Text = "Veiculos Registrados";
             this.Load += new System.EventHandler(this.frmHistorico_Load);
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvExcel)).EndInit();

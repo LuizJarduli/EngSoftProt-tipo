@@ -78,7 +78,7 @@
             this.Controls.Add(this.groupBox1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Listar_Veiculos_Registrados";
-            this.Text = "HIST";
+            this.Text = "Transportadores Reg";
             this.Load += new System.EventHandler(this.frmHistorico_Load);
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvExcel)).EndInit();

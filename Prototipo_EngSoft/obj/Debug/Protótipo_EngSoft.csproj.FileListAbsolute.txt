@@ -24,3 +24,4 @@ C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA
 C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\obj\Debug\Protótipo_EngSoft.csproj.CoreCompileInputs.cache
 C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\obj\Debug\Protótipo_EngSoft.exe
 C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\obj\Debug\Protótipo_EngSoft.pdb
+D:\BACKUPS_D\Offline_D\Repos_Offline\EngSoftProt-tipo\Prototipo_EngSoft\obj\Debug\Protótipo_EngSoft.csprojResolveAssemblyReference.cache

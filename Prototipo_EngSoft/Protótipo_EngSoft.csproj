@@ -46,6 +46,90 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Alterar_dados_Veiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alterar_dados_Veiculo.Designer.cs">
+      <DependentUpon>Alterar_dados_Veiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadastro_veiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastro_veiculo.Designer.cs">
+      <DependentUpon>frmCadastro_veiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadastro_Romaneio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastro_Romaneio.Designer.cs">
+      <DependentUpon>frmCadastro_Romaneio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deleteEssa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deleteEssa.Designer.cs">
+      <DependentUpon>deleteEssa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalcular_rota.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCalcular_rota.Designer.cs">
+      <DependentUpon>frmCalcular_rota.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCerarCTE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCerarCTE.Designer.cs">
+      <DependentUpon>frmCerarCTE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAlterar_Romaneio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAlterar_Romaneio.Designer.cs">
+      <DependentUpon>frmAlterar_Romaneio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAlterar_Veiculos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAlterar_Veiculos.Designer.cs">
+      <DependentUpon>frmAlterar_Veiculos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalcularFrete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCalcularFrete.Designer.cs">
+      <DependentUpon>frmCalcularFrete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReceberNFe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReceberNFe.Designer.cs">
+      <DependentUpon>frmReceberNFe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVisualizar_CTes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVisualizar_CTes.Designer.cs">
+      <DependentUpon>frmVisualizar_CTes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmL_Romaneios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmL_Romaneios.Designer.cs">
+      <DependentUpon>frmL_Romaneios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmL_Veiculos_Registrados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmL_Veiculos_Registrados.Designer.cs">
+      <DependentUpon>frmL_Veiculos_Registrados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmL_Transportadores_Registrados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmL_Transportadores_Registrados.Designer.cs">
+      <DependentUpon>frmL_Transportadores_Registrados.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmEntregas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +156,45 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Alterar_dados_Veiculo.resx">
+      <DependentUpon>Alterar_dados_Veiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadastro_veiculo.resx">
+      <DependentUpon>frmCadastro_veiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadastro_Romaneio.resx">
+      <DependentUpon>frmCadastro_Romaneio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalcular_rota.resx">
+      <DependentUpon>frmCalcular_rota.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCerarCTE.resx">
+      <DependentUpon>frmCerarCTE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlterar_Romaneio.resx">
+      <DependentUpon>frmAlterar_Romaneio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlterar_Veiculos.resx">
+      <DependentUpon>frmAlterar_Veiculos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalcularFrete.resx">
+      <DependentUpon>frmCalcularFrete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReceberNFe.resx">
+      <DependentUpon>frmReceberNFe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVisualizar_CTes.resx">
+      <DependentUpon>frmVisualizar_CTes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmL_Romaneios.resx">
+      <DependentUpon>frmL_Romaneios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmL_Veiculos_Registrados.resx">
+      <DependentUpon>frmL_Veiculos_Registrados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmL_Transportadores_Registrados.resx">
+      <DependentUpon>frmL_Transportadores_Registrados.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmEntregas.resx">
       <DependentUpon>frmEntregas.cs</DependentUpon>
     </EmbeddedResource>

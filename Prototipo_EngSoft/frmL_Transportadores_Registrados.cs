@@ -26,7 +26,7 @@ namespace Protótipo_EngSoft
             String name = "Planilha1";
             String constr = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" +
                             directory +
-                            "/Tabela_vendas.xlsx;Extended Properties='Excel 12.0 XML;HDR=YES;';";
+                            "/Tabela_Transportadores_Registrados.xlsx;Extended Properties='Excel 12.0 XML;HDR=YES;';";
 
             OleDbConnection con = new OleDbConnection(constr);
             OleDbCommand oconn = new OleDbCommand("Select * From [" + name + "$]", con);
