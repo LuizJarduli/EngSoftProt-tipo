@@ -39,6 +39,10 @@
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label6 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
@@ -137,6 +141,10 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.textBox12);
+            this.groupBox1.Controls.Add(this.label12);
+            this.groupBox1.Controls.Add(this.textBox11);
+            this.groupBox1.Controls.Add(this.label11);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.textBox5);
             this.groupBox1.Controls.Add(this.textBox1);
@@ -153,6 +161,38 @@
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Dados ";
+            // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(147, 270);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(100, 22);
+            this.textBox12.TabIndex = 13;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(22, 273);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(49, 17);
+            this.label12.TabIndex = 12;
+            this.label12.Text = "Senha";
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(147, 227);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(100, 22);
+            this.textBox11.TabIndex = 11;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(22, 230);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(42, 17);
+            this.label11.TabIndex = 10;
+            this.label11.Text = "Email";
             // 
             // groupBox2
             // 
@@ -305,5 +345,9 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.Label label11;
     }
 }

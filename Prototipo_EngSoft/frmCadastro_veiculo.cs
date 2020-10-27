@@ -16,5 +16,10 @@ namespace Protótipo_EngSoft
         {
             InitializeComponent();
         }
+
+        private void frmCadastro_veiculo_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

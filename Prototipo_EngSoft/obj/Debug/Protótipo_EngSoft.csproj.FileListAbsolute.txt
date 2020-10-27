@@ -41,3 +41,4 @@ C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA
 C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\obj\Debug\Protótipo_EngSoft.frmAlterar_Transportadores.resources
 C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\obj\Debug\Protótipo_EngSoft.frmLogin.resources
 C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\obj\Debug\Protótipo_EngSoft.frmCadastro_Func.resources
+C:\Users\luizj.LAPTOP-S284PDKK\Desktop\FATEC - MATERIAIS\2º Semestre\ENGENHARIA DE SOFTWARE\repo\Prototipo_EngSoft\obj\Debug\Protótipo_EngSoft.csprojAssemblyReference.cache

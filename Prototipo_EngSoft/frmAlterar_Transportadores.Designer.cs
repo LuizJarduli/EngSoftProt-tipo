@@ -43,6 +43,8 @@
             this.label10 = new System.Windows.Forms.Label();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -53,6 +55,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -191,6 +195,10 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.textBox12);
+            this.groupBox1.Controls.Add(this.label13);
+            this.groupBox1.Controls.Add(this.textBox11);
+            this.groupBox1.Controls.Add(this.label12);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.textBox5);
             this.groupBox1.Controls.Add(this.textBox1);
@@ -207,6 +215,22 @@
             this.groupBox1.TabIndex = 76;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Dados ";
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(147, 225);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(100, 22);
+            this.textBox11.TabIndex = 11;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(22, 228);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(42, 17);
+            this.label12.TabIndex = 10;
+            this.label12.Text = "Email";
             // 
             // label2
             // 
@@ -288,6 +312,22 @@
             this.textBox3.Size = new System.Drawing.Size(100, 22);
             this.textBox3.TabIndex = 5;
             // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(147, 260);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(100, 22);
+            this.textBox12.TabIndex = 13;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(22, 263);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(49, 17);
+            this.label13.TabIndex = 12;
+            this.label13.Text = "Senha";
+            // 
             // frmAlterar_Transportadores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -335,5 +375,9 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.Label label13;
     }
 }

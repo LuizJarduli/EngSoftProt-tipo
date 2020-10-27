@@ -40,9 +40,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label8 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
@@ -70,6 +67,8 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.button2 = new System.Windows.Forms.Button();
             this.label26 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -100,7 +99,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(125, 23);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(223, 22);
             this.textBox1.TabIndex = 60;
@@ -118,9 +117,9 @@
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Location = new System.Drawing.Point(32, 133);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(357, 185);
             this.groupBox1.TabIndex = 62;
             this.groupBox1.TabStop = false;
@@ -129,7 +128,7 @@
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(125, 146);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(223, 22);
             this.textBox5.TabIndex = 69;
@@ -137,7 +136,7 @@
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(125, 116);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(223, 22);
             this.textBox4.TabIndex = 68;
@@ -145,7 +144,7 @@
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(125, 85);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(223, 22);
             this.textBox3.TabIndex = 67;
@@ -183,7 +182,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(125, 54);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(223, 22);
             this.textBox2.TabIndex = 62;
@@ -198,39 +197,6 @@
             this.label4.TabIndex = 61;
             this.label4.Text = "Endereço";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(659, 30);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(160, 28);
-            this.button1.TabIndex = 64;
-            this.button1.Text = "Visualizar Previa";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "2657"});
-            this.comboBox1.Location = new System.Drawing.Point(264, 78);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(160, 24);
-            this.comboBox1.TabIndex = 57;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.75F);
-            this.label8.Location = new System.Drawing.Point(153, 82);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(91, 22);
-            this.label8.TabIndex = 63;
-            this.label8.Text = "Romaneio";
-            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.textBox8);
@@ -240,9 +206,9 @@
             this.groupBox2.Controls.Add(this.label18);
             this.groupBox2.Controls.Add(this.textBox10);
             this.groupBox2.Location = new System.Drawing.Point(32, 325);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(365, 123);
             this.groupBox2.TabIndex = 70;
             this.groupBox2.TabStop = false;
@@ -251,7 +217,7 @@
             // textBox8
             // 
             this.textBox8.Location = new System.Drawing.Point(169, 82);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(4);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(187, 22);
             this.textBox8.TabIndex = 67;
@@ -269,7 +235,7 @@
             // textBox9
             // 
             this.textBox9.Location = new System.Drawing.Point(169, 53);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox9.Margin = new System.Windows.Forms.Padding(4);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(187, 22);
             this.textBox9.TabIndex = 62;
@@ -297,7 +263,7 @@
             // textBox10
             // 
             this.textBox10.Location = new System.Drawing.Point(169, 23);
-            this.textBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox10.Margin = new System.Windows.Forms.Padding(4);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(187, 22);
             this.textBox10.TabIndex = 60;
@@ -321,9 +287,9 @@
             this.groupBox3.Controls.Add(this.textBox13);
             this.groupBox3.Controls.Add(this.label23);
             this.groupBox3.Location = new System.Drawing.Point(408, 133);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox3.Size = new System.Drawing.Size(267, 271);
             this.groupBox3.TabIndex = 70;
             this.groupBox3.TabStop = false;
@@ -332,7 +298,7 @@
             // textBox16
             // 
             this.textBox16.Location = new System.Drawing.Point(124, 241);
-            this.textBox16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox16.Margin = new System.Windows.Forms.Padding(4);
             this.textBox16.Name = "textBox16";
             this.textBox16.Size = new System.Drawing.Size(132, 22);
             this.textBox16.TabIndex = 75;
@@ -350,7 +316,7 @@
             // textBox15
             // 
             this.textBox15.Location = new System.Drawing.Point(125, 212);
-            this.textBox15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox15.Margin = new System.Windows.Forms.Padding(4);
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(132, 22);
             this.textBox15.TabIndex = 73;
@@ -368,7 +334,7 @@
             // textBox14
             // 
             this.textBox14.Location = new System.Drawing.Point(125, 178);
-            this.textBox14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox14.Margin = new System.Windows.Forms.Padding(4);
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(132, 22);
             this.textBox14.TabIndex = 71;
@@ -386,7 +352,7 @@
             // textBox6
             // 
             this.textBox6.Location = new System.Drawing.Point(125, 146);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(4);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(132, 22);
             this.textBox6.TabIndex = 69;
@@ -394,7 +360,7 @@
             // textBox7
             // 
             this.textBox7.Location = new System.Drawing.Point(125, 116);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(4);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(132, 22);
             this.textBox7.TabIndex = 68;
@@ -402,7 +368,7 @@
             // textBox11
             // 
             this.textBox11.Location = new System.Drawing.Point(125, 85);
-            this.textBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox11.Margin = new System.Windows.Forms.Padding(4);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(132, 22);
             this.textBox11.TabIndex = 67;
@@ -440,7 +406,7 @@
             // textBox12
             // 
             this.textBox12.Location = new System.Drawing.Point(125, 54);
-            this.textBox12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox12.Margin = new System.Windows.Forms.Padding(4);
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(132, 22);
             this.textBox12.TabIndex = 62;
@@ -458,7 +424,7 @@
             // textBox13
             // 
             this.textBox13.Location = new System.Drawing.Point(125, 23);
-            this.textBox13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox13.Margin = new System.Windows.Forms.Padding(4);
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(132, 22);
             this.textBox13.TabIndex = 60;
@@ -480,19 +446,19 @@
             this.listBox1.Items.AddRange(new object[] {
             "6245\tCabine Trator Ford\t150\t100\t1\t2.1\t1\t50000"});
             this.listBox1.Location = new System.Drawing.Point(705, 133);
-            this.listBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(459, 292);
             this.listBox1.TabIndex = 71;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(705, 94);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Location = new System.Drawing.Point(32, 69);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(143, 32);
             this.button2.TabIndex = 72;
-            this.button2.Text = "Acrescentar";
+            this.button2.Text = "Dados NF-E";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // label26
@@ -507,22 +473,41 @@
             this.label26.TabIndex = 70;
             this.label26.Text = "----------Itens---------";
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(705, 444);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(143, 32);
+            this.button3.TabIndex = 73;
+            this.button3.Text = "Remover Itens";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(1021, 444);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(143, 32);
+            this.button4.TabIndex = 74;
+            this.button4.Text = "Gerar Romaneio";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
             // frmCadastro_Romaneio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1197, 553);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.label26);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label8);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmCadastro_Romaneio";
             this.Text = "Cadastro_Romaneio";
             this.groupBox1.ResumeLayout(false);
@@ -547,12 +532,9 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Label label16;
@@ -580,5 +562,7 @@
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }

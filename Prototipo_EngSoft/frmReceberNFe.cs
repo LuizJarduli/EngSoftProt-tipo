@@ -16,5 +16,20 @@ namespace Protótipo_EngSoft
         {
             InitializeComponent();
         }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label29_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
