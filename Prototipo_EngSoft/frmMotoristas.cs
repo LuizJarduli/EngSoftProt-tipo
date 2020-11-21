@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace Protótipo_EngSoft
 {
-    public partial class frmCadastro_veiculo : Form
+    public partial class frmMotoristas : Form
     {
-        public frmCadastro_veiculo()
+        public frmMotoristas()
         {
             InitializeComponent();
-        }
-
-        private void frmCadastro_veiculo_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -273,5 +273,19 @@ namespace Protótipo_EngSoft
             FrmCalcRota.WindowState = FormWindowState.Maximized;
             FrmCalcRota.Show();
         }
+
+        private void cadastrarMotoristasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            pbFundo.Hide();
+            Form fc = Application.OpenForms["frmMotoristas"];
+            if (fc != null)
+            {
+                fc.Close();
+            }
+            frmMotoristas FrmMotorista = new frmMotoristas();
+            FrmMotorista.MdiParent = this; // anexar o form 'filho' dentro do form 'pai'
+            FrmMotorista.WindowState = FormWindowState.Maximized;
+            FrmMotorista.Show();
+        }
     }
 }

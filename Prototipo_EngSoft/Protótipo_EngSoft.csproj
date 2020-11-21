@@ -136,6 +136,12 @@
     <Compile Include="frmL_Veiculos.Designer.cs">
       <DependentUpon>frmL_Veiculos.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmMotoristas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMotoristas.Designer.cs">
+      <DependentUpon>frmMotoristas.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmReceberNFe.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -224,6 +230,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmL_Veiculos.resx">
       <DependentUpon>frmL_Veiculos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMotoristas.resx">
+      <DependentUpon>frmMotoristas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmReceberNFe.resx">
       <DependentUpon>frmReceberNFe.cs</DependentUpon>
