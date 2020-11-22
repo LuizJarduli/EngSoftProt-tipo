@@ -47,7 +47,7 @@
             this.groupBox1.Size = new System.Drawing.Size(1076, 529);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Transportadores Registrados";
+            this.groupBox1.Text = "Transportadoras Registrados";
             // 
             // button1
             // 

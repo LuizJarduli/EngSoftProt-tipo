@@ -48,9 +48,7 @@
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -65,8 +63,8 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "Larissa"});
-            this.comboBox1.Location = new System.Drawing.Point(529, 9);
+            "Zilu Transportes"});
+            this.comboBox1.Location = new System.Drawing.Point(559, 9);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(160, 24);
@@ -77,12 +75,12 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(157, 2);
+            this.label6.Location = new System.Drawing.Point(116, 2);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(321, 31);
+            this.label6.Size = new System.Drawing.Size(405, 31);
             this.label6.TabIndex = 72;
-            this.label6.Text = "Alterar dados de Usuário:";
+            this.label6.Text = "Alterar dados de Transportadora";
             // 
             // button1
             // 
@@ -200,9 +198,7 @@
             this.groupBox1.Controls.Add(this.textBox11);
             this.groupBox1.Controls.Add(this.label12);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.textBox5);
             this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.textBox4);
             this.groupBox1.Controls.Add(this.textBox2);
@@ -218,7 +214,7 @@
             // 
             // textBox12
             // 
-            this.textBox12.Location = new System.Drawing.Point(147, 260);
+            this.textBox12.Location = new System.Drawing.Point(148, 222);
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(100, 22);
             this.textBox12.TabIndex = 13;
@@ -226,7 +222,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(22, 263);
+            this.label13.Location = new System.Drawing.Point(23, 225);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(49, 17);
             this.label13.TabIndex = 12;
@@ -234,7 +230,7 @@
             // 
             // textBox11
             // 
-            this.textBox11.Location = new System.Drawing.Point(147, 225);
+            this.textBox11.Location = new System.Drawing.Point(148, 187);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(100, 22);
             this.textBox11.TabIndex = 11;
@@ -242,7 +238,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(22, 228);
+            this.label12.Location = new System.Drawing.Point(23, 190);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(42, 17);
             this.label12.TabIndex = 10;
@@ -253,16 +249,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(22, 39);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(108, 17);
+            this.label2.Size = new System.Drawing.Size(91, 17);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Nome Completo";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(147, 187);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 22);
-            this.textBox5.TabIndex = 9;
+            this.label2.Text = "Razão Social";
             // 
             // textBox1
             // 
@@ -271,23 +260,14 @@
             this.textBox1.Size = new System.Drawing.Size(176, 22);
             this.textBox1.TabIndex = 1;
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(22, 190);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(37, 17);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "CNH";
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(22, 72);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(34, 17);
+            this.label3.Size = new System.Drawing.Size(43, 17);
             this.label3.TabIndex = 2;
-            this.label3.Text = "CPF";
+            this.label3.Text = "CNPJ";
             // 
             // textBox4
             // 
@@ -339,7 +319,6 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.button1);
             this.Name = "frmAlterar_Transportadores";
-            this.Text = "frmAlterar_Transportadores";
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
@@ -366,9 +345,7 @@
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox2;
